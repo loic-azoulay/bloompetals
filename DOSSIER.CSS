@@ -1,0 +1,63 @@
+/* bloompetals.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #60004c5d;
+    color: #020001;
+    line-height: 1.6;
+    margin: 0;
+    padding: 40px;
+}
+
+h1 {
+    text-align: center;
+    color: hsla(319, 89%, 4%, 0); /* Couleur principale */
+    margin-bottom: 70px;
+}
+
+h2 {
+    color: #080000;
+    margin-top: 70px;
+}
+
+h3 {
+    color: #070005;
+    margin-top: 70px;
+}
+
+p {
+    margin: 100px 0;
+    text-align: justify;
+    color: #000000;
+}
+
+ul {
+    margin: 15px 0;
+    padding-left: 20px; /* Ajout d'un espace à gauche */
+}
+
+li {
+    margin: 5px 0; /* Espacement entre les éléments de la liste */
+}
+
+section {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #ed8ff9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgb(219, 143, 242);
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.gallery img { 
+    width: 100%; 
+    height: auto; 
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(255, 0, 255, 0.856);
+}
